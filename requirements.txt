@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pandas
+requests
+confluent-kafka
+apache-airflow

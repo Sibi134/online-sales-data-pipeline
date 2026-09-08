@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv/
+airflow311_env/
+airflow_env/
+
+# Airflow local environment
+airflow_home/
+airflow_home311/
+airflow/logs/
+airflow/airflow.cfg
+airflow/airflow.db
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logs
+logs/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Generated staging data
+staging/*.csv
+
+# Generated warehouse data
+warehouse/*.csv
+
+# Generated EDA outputs
+eda/*.csv
+
+# Temporary/backup files
+streamlit_app_backup.py
+
+# Tableau packaged workbook
+*.twbx
+api/main_backup_before_airflow_trigger.py
+eda/charts/
